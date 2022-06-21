@@ -1458,11 +1458,11 @@ console.log(usersName);
 
 function greeting(){
 
-    let count = 1000;
+    let count = 2000;
 
     for(let user of usersName){
         setTimeout(function (){console.log(`Hi, ${user.name}`)}, count);
-        count += 1000;
+        count += 2000;
     }
 }
 greeting();
